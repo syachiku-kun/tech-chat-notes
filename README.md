@@ -5,6 +5,8 @@
 
 - [機能要件・非機能要件](requirements/機能要件・非機能要件.md)
 - [技術スタック選定・システム構成](requirements/技術スタック選定・システム構成.md)
+- [システム構成図](requirements/システム構成図.md)
+- [ローカル Embedding モデル選定](requirements/ローカルEmbeddingモデル選定.md)
 
 ## お知らせ
 

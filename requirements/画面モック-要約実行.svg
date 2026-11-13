@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" role="img" aria-labelledby="title desc">
+<title id="title">Tech Chat Notes - 要約実行画面</title>
+<desc id="desc">クラシックなWindows風の単一ウィンドウで要約実行を表示する画面モック。</desc>
+<rect x="1" y="1" width="958" height="468" fill="#d4d0c8" stroke="#404040" stroke-width="2"/>
+<rect x="4" y="4" width="952" height="36" fill="#0a246a" stroke="#0a246a" stroke-width="1"/>
+<text x="17" y="29" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="17" font-weight="bold" fill="#ffffff">Tech Chat Notes</text>
+<rect x="922" y="10" width="25" height="23" fill="#d4d0c8" stroke="#ffffff" stroke-width="2"/>
+<text x="928" y="28" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="18" font-weight="normal" fill="#000000">×</text>
+<rect x="7" y="48" width="162" height="380" fill="#d4d0c8" stroke="#808080" stroke-width="1"/>
+<text x="20" y="72" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="16" font-weight="bold" fill="#000000">メニュー</text>
+<rect x="15" y="84" width="146" height="42" fill="#d4d0c8" stroke="#808080" stroke-width="1"/>
+<text x="28" y="111" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="16" font-weight="normal" fill="#000000">要約一覧</text>
+<rect x="15" y="132" width="146" height="42" fill="#d4d0c8" stroke="#808080" stroke-width="1"/>
+<text x="28" y="159" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="16" font-weight="normal" fill="#000000">トーク取込</text>
+<rect x="15" y="180" width="146" height="42" fill="#aabdd9" stroke="#0a246a" stroke-width="1"/>
+<text x="28" y="207" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="16" font-weight="bold" fill="#000000">要約実行</text>
+<rect x="15" y="228" width="146" height="42" fill="#d4d0c8" stroke="#808080" stroke-width="1"/>
+<text x="28" y="255" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="16" font-weight="normal" fill="#000000">検索</text>
+<rect x="15" y="276" width="146" height="42" fill="#d4d0c8" stroke="#808080" stroke-width="1"/>
+<text x="28" y="303" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="16" font-weight="normal" fill="#000000">設定</text>
+<rect x="178" y="48" width="770" height="380" fill="#d4d0c8" stroke="#808080" stroke-width="1"/>
+<text x="198" y="78" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="22" font-weight="bold" fill="#000000">要約実行</text>
+<rect x="7" y="436" width="941" height="25" fill="#d4d0c8" stroke="#808080" stroke-width="1"/>
+<text x="18" y="454" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="13" font-weight="normal" fill="#000000">状態: 待機中</text>
+<text x="725" y="454" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="13" font-weight="normal" fill="#000000">保存先: ローカル</text>
+<text x="201" y="117" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="16" font-weight="normal" fill="#000000">対象: 未要約のトーク</text>
+<rect x="710" y="97" width="212" height="30" fill="#808080" stroke="#808080" stroke-width="1"/>
+<rect x="708" y="95" width="212" height="30" fill="#d4d0c8" stroke="#ffffff" stroke-width="2"/>
+<text x="720" y="116" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="15" font-weight="normal" fill="#000000">対象期間を確認</text>
+<rect x="201" y="135" width="719" height="79" fill="#ffffff" stroke="#808080" stroke-width="1"/>
+<text x="216" y="163" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="15" font-weight="normal" fill="#000000">送信先: 設定済みの生成 AI</text>
+<text x="216" y="192" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="15" font-weight="normal" fill="#000000">送信内容: 対象トーク本文</text>
+<rect x="203" y="234" width="162" height="30" fill="#808080" stroke="#808080" stroke-width="1"/>
+<rect x="201" y="232" width="162" height="30" fill="#d4d0c8" stroke="#ffffff" stroke-width="2"/>
+<text x="213" y="253" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="15" font-weight="normal" fill="#000000">要約を開始</text>
+<text x="201" y="303" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="16" font-weight="normal" fill="#000000">状態: 3 / 10 件処理中</text>
+<rect x="201" y="319" width="719" height="28" fill="#ffffff" stroke="#808080" stroke-width="1"/>
+<rect x="203" y="321" width="214" height="24" fill="#0a246a" stroke="#0a246a" stroke-width="1"/>
+<text x="201" y="389" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="15" font-weight="normal" fill="#000000">直近の結果: 成功・失敗件数と再実行できるエラー概要</text>
+</svg>
