@@ -1,0 +1,15 @@
+[project]
+name = "tech-chat-notes"
+version = "0.1.0"
+description = "LINE の技術チャットをノート化する Windows デスクトップアプリ"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "customtkinter>=6.0,<7.0",
+    "lancedb>=0.41,<1.0",
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = ">=6.0,<7.0"
