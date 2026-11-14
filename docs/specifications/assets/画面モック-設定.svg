@@ -25,7 +25,7 @@
 <text x="725" y="454" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="13" font-weight="normal" fill="#000000">保存先: ローカル</text>
 <rect x="201" y="102" width="719" height="142" fill="#d4d0c8" stroke="#808080" stroke-width="1"/>
 <text x="218" y="127" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="17" font-weight="bold" fill="#000000">生成 AI</text>
-<text x="218" y="158" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="15" font-weight="normal" fill="#000000">接続方法・送信先: 選定後に表示</text>
+<text x="218" y="158" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="15" font-weight="normal" fill="#000000">送信先: Codex（接続方式は未決定）</text>
 <text x="218" y="190" font-family="'MS UI Gothic',Meiryo,sans-serif" font-size="15" font-weight="normal" fill="#000000">認証情報: 登録済み / 未登録</text>
 <rect x="746" y="178" width="160" height="30" fill="#808080" stroke="#808080" stroke-width="1"/>
 <rect x="744" y="176" width="160" height="30" fill="#d4d0c8" stroke="#ffffff" stroke-width="2"/>
