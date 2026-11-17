@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" role="img" aria-labelledby="t">
+<title id="t">UI案：要約実行</title>
+<style>
+text{font-family:'Noto Sans JP','Yu Gothic','Meiryo',sans-serif;fill:#1E2226;font-size:14px}
+.m{fill:#5C626B}.s{font-size:12px}.b{font-weight:700}.w{fill:#FFFFFF}.k{font-family:'Noto Serif JP','Yu Mincho',serif;font-weight:700}
+.a{fill:#0A5750}.c{text-anchor:middle}.e{text-anchor:end}.g{fill:#0E6A62}.r{fill:#B3261E}
+.card{fill:#FFFFFF;stroke:#E4DFD4}.in{fill:#FFFFFF;stroke:#D5CFC2}
+.ic{fill:none;stroke:#1E2226;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ica{stroke:#0A5750}
+.sep{fill:#EFEBE2}
+</style>
+<rect width="1440" height="900" fill="#F6F4EF"/>
+
+<!-- サイドバー -->
+<rect width="232" height="900" fill="#FFFFFF"/><rect x="231" width="1" height="900" fill="#E4DFD4"/>
+<rect x="24" y="24" width="32" height="32" rx="8" class="g"/>
+<path class="ic" stroke="#FFFFFF" transform="translate(31 31) scale(0.75)" d="M5 4h4v16H5zM11 4h4v16h-4zM17 6l3-1 2 14-3 1z"/>
+<text x="66" y="46" class="b" font-size="16">トーク要約</text>
+<path class="ic" transform="translate(28 88) scale(0.83)" d="M5 4h4v16H5zM11 4h4v16h-4zM17 6l3-1 2 14-3 1z"/><text x="58" y="103" font-weight="500">本棚</text>
+<path class="ic" transform="translate(28 140) scale(0.83)" d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14"/><text x="58" y="155" font-weight="500">トーク取込</text>
+<rect x="16" y="180" width="200" height="44" rx="10" fill="#DDEFEC"/>
+<path class="ic ica" transform="translate(28 192) scale(0.83)" d="M7 5l12 7-12 7z"/><text x="58" y="207" class="a b">要約実行</text>
+<path class="ic" transform="translate(28 244) scale(0.83)" d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm9 16l-4-4"/><text x="58" y="259" font-weight="500">検索</text>
+<path class="ic" transform="translate(28 296) scale(0.83)" d="M4 7h10M18 7h2M4 17h2M10 17h10M14 5v4M6 15v4"/><text x="58" y="311" font-weight="500">設定</text>
+<rect x="16" y="800" width="200" height="76" rx="12" fill="none" stroke="#E4DFD4"/>
+<circle cx="36" cy="824" r="4" fill="#1F8A5B"/><text x="48" y="828" class="s m">Codex 接続済み</text>
+<circle cx="36" cy="850" r="4" fill="#C28A00"/><text x="48" y="854" class="s m">検索未反映 2件</text>
+
+<!-- 見出し -->
+<text x="280" y="66" font-size="28" class="b">要約実行</text>
+<text x="394" y="66" class="s m">午前・午後ごとに要約して、本棚に並べます</text>
+
+<!-- 中断ジョブ -->
+<rect x="280" y="92" width="1112" height="60" rx="12" fill="#FFF6DC" stroke="#EBD28A"/>
+<path class="ic" stroke="#5E4300" transform="translate(298 112) scale(0.75)" d="M12 3l10 18H2zM12 10v5M12 18h.01"/>
+<text x="326" y="116" class="b" font-size="13" style="fill:#5E4300">前回の要約が途中で止まっています。再開しますか？</text>
+<text x="326" y="136" class="s" style="fill:#5E4300">完了済みの単位は飛ばします。AI へ送信中だった単位は、再送信の前にもう一度確認します。</text>
+<rect x="1180" y="102" width="116" height="40" rx="10" class="g"/><text x="1238" y="127" class="w b c">再開する</text>
+<rect x="1306" y="102" width="74" height="40" rx="10" class="in"/><text x="1343" y="127" class="c">破棄</text>
+
+<!-- 1 範囲 -->
+<rect x="280" y="172" width="730" height="366" rx="14" class="card"/>
+<circle cx="308" cy="204" r="12" class="g"/><text x="308" y="209" class="w b c" font-size="13">1</text><text x="330" y="209" class="b">要約する範囲を選ぶ</text>
+<text x="300" y="242" class="s m">オープンチャット</text><rect x="300" y="250" width="335" height="40" rx="10" class="in"/><text x="314" y="275">個人開発もくもく会</text><text x="620" y="275" class="e m">▾</text>
+<text x="655" y="242" class="s m">期間</text><rect x="655" y="250" width="335" height="40" rx="10" class="in"/><text x="669" y="275">11/12 〜 11/16（前日まで）</text><text x="975" y="275" class="e m">▾</text>
+<rect x="300" y="308" width="690" height="220" rx="10" fill="none" stroke="#EFEBE2"/>
+<rect x="314" y="322" width="18" height="18" rx="4" class="g"/><path d="M318 331l3 3 6-6" fill="none" stroke="#FFFFFF" stroke-width="2"/><text x="346" y="337" class="k">11/12 午後</text><text x="460" y="337" class="s m" font-size="13">44件</text><rect x="300" y="352" width="690" height="1" class="sep"/>
+<rect x="314" y="366" width="18" height="18" rx="4" class="g"/><path d="M318 375l3 3 6-6" fill="none" stroke="#FFFFFF" stroke-width="2"/><text x="346" y="381" class="k">11/13 午前</text><text x="460" y="381" class="s m" font-size="13">70件</text><rect x="300" y="396" width="690" height="1" class="sep"/>
+<rect x="314" y="410" width="18" height="18" rx="4" class="g"/><path d="M318 419l3 3 6-6" fill="none" stroke="#FFFFFF" stroke-width="2"/><text x="346" y="425" class="k">11/13 午後</text><text x="460" y="425" class="s m" font-size="13">55件</text><rect x="300" y="440" width="690" height="1" class="sep"/>
+<rect x="314" y="454" width="18" height="18" rx="4" class="g"/><path d="M318 463l3 3 6-6" fill="none" stroke="#FFFFFF" stroke-width="2"/><text x="346" y="469" class="k">11/14 午前</text><text x="460" y="469" class="s m" font-size="13">38件</text><rect x="300" y="484" width="690" height="1" class="sep"/>
+<rect x="314" y="498" width="18" height="18" rx="4" class="g"/><path d="M318 507l3 3 6-6" fill="none" stroke="#FFFFFF" stroke-width="2"/><text x="346" y="513" class="k">11/14 午後</text><text x="460" y="513" class="s m" font-size="13">79件</text>
+
+<!-- 2 送信内容 -->
+<rect x="280" y="556" width="730" height="236" rx="14" class="card"/>
+<circle cx="308" cy="588" r="12" class="g"/><text x="308" y="593" class="w b c" font-size="13">2</text><text x="330" y="593" class="b">送信する内容を確認する</text>
+<text x="300" y="628" class="s m">送信先</text><text x="464" y="628" font-size="13">Codex（このPCの Codex CLI から外部 AI へ送信）</text>
+<text x="300" y="656" class="s m">要約する本文</text><text x="464" y="656" font-size="13">5 単位 · 計 286 件のメッセージ</text>
+<text x="300" y="684" class="s m">参考として添える要約</text><text x="464" y="684" font-size="13">過去 7 日 · 最大 5 件 → 今回は 4 件</text>
+<text x="464" y="704" class="s m">11/15 午後・11/15 午前・11/14 午後・11/13 午前</text>
+<rect x="300" y="724" width="190" height="44" rx="10" class="g"/><text x="395" y="751" class="w b c">この内容で実行する</text>
+<rect x="502" y="724" width="170" height="44" rx="10" class="in"/><text x="587" y="751" class="c">送信内容をすべて見る</text>
+
+<!-- 進み具合 -->
+<rect x="1038" y="172" width="354" height="366" rx="14" class="card"/>
+<text x="1058" y="204" class="b">進み具合</text><text x="1372" y="204" class="s m e">2 / 5 単位</text>
+<rect x="1058" y="222" width="314" height="10" rx="5" fill="#E9E5DA"/><rect x="1058" y="222" width="126" height="10" rx="5" class="g"/>
+<rect x="1058" y="248" width="314" height="1" class="sep"/>
+<circle cx="1068" cy="274" r="5" fill="#1F8A5B"/><text x="1086" y="279" class="k">11/12 午後</text><text x="1180" y="279" class="s">完了・検索に反映済み</text><text x="1372" y="279" class="s m e">1</text><rect x="1058" y="292" width="314" height="1" class="sep"/>
+<circle cx="1068" cy="318" r="5" fill="#1F8A5B"/><text x="1086" y="323" class="k">11/13 午前</text><text x="1180" y="323" class="s">完了・検索に反映済み</text><text x="1372" y="323" class="s m e">2</text><rect x="1058" y="336" width="314" height="1" class="sep"/>
+<circle cx="1068" cy="362" r="5" class="g"/><text x="1086" y="367" class="k">11/13 午後</text><text x="1180" y="367" class="s">要約中…</text><text x="1372" y="367" class="s m e">3</text><rect x="1058" y="380" width="314" height="1" class="sep"/>
+<circle cx="1068" cy="406" r="5" fill="#B9B2A3"/><text x="1086" y="411" class="k">11/14 午前</text><text x="1180" y="411" class="s">待機中</text><text x="1372" y="411" class="s m e">4</text><rect x="1058" y="424" width="314" height="1" class="sep"/>
+<circle cx="1068" cy="450" r="5" fill="#B9B2A3"/><text x="1086" y="455" class="k">11/14 午後</text><text x="1180" y="455" class="s">待機中</text><text x="1372" y="455" class="s m e">5</text>
+<rect x="1058" y="472" width="314" height="1" class="sep"/>
+<text x="1058" y="496" class="s m">処理中も、ほかの画面を使えます。完了すると本棚に</text>
+<text x="1058" y="514" class="s m">追加され、検索データは自動で更新されます。</text>
+</svg>

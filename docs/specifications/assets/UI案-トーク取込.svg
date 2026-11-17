@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" role="img" aria-labelledby="t">
+<title id="t">UI案：トーク取込</title>
+<style>
+text{font-family:'Noto Sans JP','Yu Gothic','Meiryo',sans-serif;fill:#1E2226;font-size:14px}
+.m{fill:#5C626B}.s{font-size:12px}.b{font-weight:700}.w{fill:#FFFFFF}.k{font-family:'Noto Serif JP','Yu Mincho',serif;font-weight:700}
+.a{fill:#0A5750}.c{text-anchor:middle}.e{text-anchor:end}.g{fill:#0E6A62}.r{fill:#B3261E}
+.card{fill:#FFFFFF;stroke:#E4DFD4}.in{fill:#FFFFFF;stroke:#D5CFC2}
+.ic{fill:none;stroke:#1E2226;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ica{stroke:#0A5750}
+</style>
+<rect width="1440" height="900" fill="#F6F4EF"/>
+
+<!-- サイドバー -->
+<rect width="232" height="900" fill="#FFFFFF"/><rect x="231" width="1" height="900" fill="#E4DFD4"/>
+<rect x="24" y="24" width="32" height="32" rx="8" class="g"/>
+<path class="ic" stroke="#FFFFFF" transform="translate(31 31) scale(0.75)" d="M5 4h4v16H5zM11 4h4v16h-4zM17 6l3-1 2 14-3 1z"/>
+<text x="66" y="46" class="b" font-size="16">トーク要約</text>
+<path class="ic" transform="translate(28 88) scale(0.83)" d="M5 4h4v16H5zM11 4h4v16h-4zM17 6l3-1 2 14-3 1z"/><text x="58" y="103" font-weight="500">本棚</text>
+<rect x="16" y="128" width="200" height="44" rx="10" fill="#DDEFEC"/>
+<path class="ic ica" transform="translate(28 140) scale(0.83)" d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14"/><text x="58" y="155" class="a b">トーク取込</text>
+<path class="ic" transform="translate(28 192) scale(0.83)" d="M7 5l12 7-12 7z"/><text x="58" y="207" font-weight="500">要約実行</text>
+<path class="ic" transform="translate(28 244) scale(0.83)" d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm9 16l-4-4"/><text x="58" y="259" font-weight="500">検索</text>
+<path class="ic" transform="translate(28 296) scale(0.83)" d="M4 7h10M18 7h2M4 17h2M10 17h10M14 5v4M6 15v4"/><text x="58" y="311" font-weight="500">設定</text>
+<rect x="16" y="800" width="200" height="76" rx="12" fill="none" stroke="#E4DFD4"/>
+<circle cx="36" cy="824" r="4" fill="#1F8A5B"/><text x="48" y="828" class="s m">Codex 接続済み</text>
+<circle cx="36" cy="850" r="4" fill="#C28A00"/><text x="48" y="854" class="s m">検索未反映 2件</text>
+
+<!-- 見出し -->
+<text x="280" y="66" font-size="28" class="b">トーク取込</text>
+<text x="436" y="66" class="s m">LINE オープンチャットのエクスポート（.txt）を本棚に追加します</text>
+
+<!-- ドロップ領域 -->
+<rect x="280" y="100" width="740" height="190" rx="16" fill="#FBFAF6" stroke="#B9B2A3" stroke-width="2" stroke-dasharray="8 6"/>
+<path fill="none" stroke="#0E6A62" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(634 130) scale(1.33)" d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14"/>
+<text x="650" y="200" class="c" font-weight="500">トーク履歴の .txt をここにドロップ</text>
+<rect x="570" y="218" width="160" height="40" rx="10" class="in" stroke="#0E6A62"/><text x="650" y="243" class="a b c">ファイルを選択…</text>
+
+<!-- 選択ファイル -->
+<rect x="280" y="310" width="740" height="84" rx="14" class="card"/>
+<rect x="300" y="326" width="40" height="52" rx="5" class="g"/><rect x="300" y="326" width="5" height="52" rx="2" fill="#000000" opacity="0.2"/>
+<text x="360" y="350" class="b">サンプル_個人開発もくもく会.txt</text>
+<text x="360" y="372" class="s m" font-size="13">選択済み · 取込が完了しました</text>
+<rect x="836" y="332" width="164" height="40" rx="10" class="in"/><text x="918" y="357" class="c">別のファイルを選ぶ</text>
+
+<!-- 結果の数 -->
+<rect x="280" y="414" width="236" height="96" rx="14" class="card"/><text x="300" y="442" class="s m">取り込んだ行</text><text x="300" y="486" font-size="30" class="b a">1,248</text>
+<rect x="532" y="414" width="236" height="96" rx="14" class="card"/><text x="552" y="442" class="s m">重複のため追加なし</text><text x="552" y="486" font-size="30" class="b">36</text>
+<rect x="784" y="414" width="236" height="96" rx="14" class="card" stroke="#EBC9C5"/><text x="804" y="442" class="s m">読み取れなかった行</text><text x="804" y="486" font-size="30" class="b r">3</text>
+
+<!-- 読み取れなかった行 -->
+<rect x="280" y="530" width="740" height="160" rx="14" class="card"/>
+<text x="300" y="560" class="b" font-size="13">読み取れなかった行</text>
+<text x="300" y="590" font-size="13">12行目：パースが失敗したため読み取れませんでした。</text><rect x="300" y="602" width="700" height="1" fill="#EFEBE2"/>
+<text x="300" y="628" font-size="13">340行目：パースが失敗したため読み取れませんでした。</text><rect x="300" y="640" width="700" height="1" fill="#EFEBE2"/>
+<text x="300" y="666" font-size="13">907行目：パースが失敗したため読み取れませんでした。</text>
+
+<!-- 注意 -->
+<circle cx="288" cy="718" r="8" fill="none" stroke="#5C626B" stroke-width="2"/><path d="M288 716v5M288 713h.01" stroke="#5C626B" stroke-width="2" stroke-linecap="round" fill="none"/>
+<text x="306" y="723" class="m" font-size="13">同じ名前の別オープンチャットは、同じオープンチャットとして扱われます。</text>
+
+<!-- 履歴 -->
+<rect x="1052" y="100" width="340" height="380" rx="14" class="card"/>
+<text x="1072" y="132" class="b">取込履歴</text>
+<rect x="1072" y="148" width="300" height="1" fill="#EFEBE2"/>
+<circle cx="1082" cy="176" r="5" fill="#C28A00"/><text x="1100" y="174" font-size="13" font-weight="500">個人開発もくもく会</text><text x="1100" y="194" class="s m">11/17 19:10 · 1,248行 取込 / 3行 失敗</text>
+<rect x="1072" y="208" width="300" height="1" fill="#EFEBE2"/>
+<circle cx="1082" cy="236" r="5" fill="#1F8A5B"/><text x="1100" y="234" font-size="13" font-weight="500">Python 学習部屋</text><text x="1100" y="254" class="s m">11/16 08:42 · 612行 取込</text>
+<rect x="1072" y="268" width="300" height="1" fill="#EFEBE2"/>
+<circle cx="1082" cy="296" r="5" fill="#1F8A5B"/><text x="1100" y="294" font-size="13" font-weight="500">AI ツール情報交換</text><text x="1100" y="314" class="s m">11/15 20:31 · 804行 取込</text>
+<rect x="1072" y="328" width="300" height="1" fill="#EFEBE2"/>
+<circle cx="1082" cy="356" r="5" fill="#1F8A5B"/><text x="1100" y="354" font-size="13" font-weight="500">個人開発もくもく会</text><text x="1100" y="374" class="s m">11/14 07:55 · 1,020行 取込</text>
+<rect x="1072" y="388" width="300" height="1" fill="#EFEBE2"/>
+<circle cx="1082" cy="416" r="5" fill="#B3261E"/><text x="1100" y="414" font-size="13" font-weight="500">Python 学習部屋</text><text x="1100" y="434" class="s m">11/13 21:03 · 取込に失敗</text>
+</svg>

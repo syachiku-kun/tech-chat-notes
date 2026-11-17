@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" role="img" aria-labelledby="t">
+<title id="t">UI案：検索</title>
+<style>
+text{font-family:'Noto Sans JP','Yu Gothic','Meiryo',sans-serif;fill:#1E2226;font-size:14px}
+.m{fill:#5C626B}.s{font-size:12px}.b{font-weight:700}.w{fill:#FFFFFF}.k{font-family:'Noto Serif JP','Yu Mincho',serif;font-weight:700}
+.a{fill:#0A5750}.c{text-anchor:middle}.e{text-anchor:end}.g{fill:#0E6A62}.r{fill:#B3261E}
+.card{fill:#FFFFFF;stroke:#E4DFD4}.in{fill:#FFFFFF;stroke:#D5CFC2}
+.ic{fill:none;stroke:#1E2226;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ica{stroke:#0A5750}
+.sp{fill:#000000;opacity:0.2}.bar{fill:#E9E5DA}
+</style>
+<rect width="1440" height="900" fill="#F6F4EF"/>
+
+<!-- サイドバー -->
+<rect width="232" height="900" fill="#FFFFFF"/><rect x="231" width="1" height="900" fill="#E4DFD4"/>
+<rect x="24" y="24" width="32" height="32" rx="8" class="g"/>
+<path class="ic" stroke="#FFFFFF" transform="translate(31 31) scale(0.75)" d="M5 4h4v16H5zM11 4h4v16h-4zM17 6l3-1 2 14-3 1z"/>
+<text x="66" y="46" class="b" font-size="16">トーク要約</text>
+<path class="ic" transform="translate(28 88) scale(0.83)" d="M5 4h4v16H5zM11 4h4v16h-4zM17 6l3-1 2 14-3 1z"/><text x="58" y="103" font-weight="500">本棚</text>
+<path class="ic" transform="translate(28 140) scale(0.83)" d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14"/><text x="58" y="155" font-weight="500">トーク取込</text>
+<path class="ic" transform="translate(28 192) scale(0.83)" d="M7 5l12 7-12 7z"/><text x="58" y="207" font-weight="500">要約実行</text>
+<rect x="16" y="232" width="200" height="44" rx="10" fill="#DDEFEC"/>
+<path class="ic ica" transform="translate(28 244) scale(0.83)" d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm9 16l-4-4"/><text x="58" y="259" class="a b">検索</text>
+<path class="ic" transform="translate(28 296) scale(0.83)" d="M4 7h10M18 7h2M4 17h2M10 17h10M14 5v4M6 15v4"/><text x="58" y="311" font-weight="500">設定</text>
+<rect x="16" y="800" width="200" height="76" rx="12" fill="none" stroke="#E4DFD4"/>
+<circle cx="36" cy="824" r="4" fill="#1F8A5B"/><text x="48" y="828" class="s m">Codex 接続済み</text>
+<circle cx="36" cy="850" r="4" fill="#C28A00"/><text x="48" y="854" class="s m">検索未反映 2件</text>
+
+<!-- 見出し・検索ボックス -->
+<text x="280" y="66" font-size="28" class="b">検索</text>
+<rect x="280" y="96" width="1112" height="60" rx="16" class="in" stroke="#0E6A62" stroke-width="2"/>
+<path fill="none" stroke="#0E6A62" stroke-width="2" stroke-linecap="round" transform="translate(300 113) scale(0.92)" d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm9 16l-4-4"/>
+<text x="338" y="132" font-size="17">データベースの移行で決まったこと</text>
+<rect x="1308" y="106" width="72" height="40" rx="10" class="g"/><text x="1344" y="132" class="w b c">検索</text>
+<text x="280" y="180" class="s m">文の意味が近い要約を探します。入力した文はこのPCの中だけで処理されます。</text>
+
+<!-- 絞り込み -->
+<text x="280" y="226" class="s m b">オープンチャット</text>
+<rect x="280" y="238" width="18" height="18" rx="4" class="g"/><path d="M284 247l3 3 6-6" fill="none" stroke="#FFFFFF" stroke-width="2"/><text x="308" y="252">個人開発もくもく会</text>
+<rect x="280" y="270" width="18" height="18" rx="4" class="g"/><path d="M284 279l3 3 6-6" fill="none" stroke="#FFFFFF" stroke-width="2"/><text x="308" y="284">Python 学習部屋</text>
+<rect x="280" y="302" width="18" height="18" rx="4" class="g"/><path d="M284 311l3 3 6-6" fill="none" stroke="#FFFFFF" stroke-width="2"/><text x="308" y="316">AI ツール情報交換</text>
+<text x="280" y="364" class="s m b">期間</text>
+<rect x="280" y="374" width="220" height="40" rx="10" class="in"/><text x="294" y="399">すべての期間</text><text x="486" y="399" class="e m">▾</text>
+<rect x="280" y="436" width="220" height="1" fill="#E4DFD4"/>
+<text x="280" y="460" class="s m">検索データに反映されていない</text>
+<text x="280" y="478" class="s m">要約 2件は、結果に出ません。</text>
+
+<!-- 結果 -->
+<text x="528" y="226" class="b">近い順に 5 件</text><text x="1392" y="226" class="s m e">サンプル表示</text>
+
+<rect x="528" y="240" width="864" height="108" rx="14" class="card"/>
+<text x="560" y="300" class="k a c" font-size="22">1</text>
+<rect x="590" y="254" width="58" height="76" rx="6" fill="#0E6A62"/><rect x="590" y="254" width="4" height="76" class="sp"/><text x="604" y="288" class="k w" font-size="15">11/16</text><text x="604" y="306" class="w" font-size="11">午前</text>
+<text x="668" y="270" class="s m">個人開発もくもく会</text><text x="668" y="292" class="b">SQLite への移行手順と検索反映の確認</text>
+<text x="668" y="316" class="s" font-size="13">バックアップを取ってから段階的に進める方針で話がまとまった。</text><text x="668" y="334" class="s" font-size="13">検索用のデータは移行後に再生成する。</text>
+<text x="1270" y="284" class="s m">近さ</text><rect x="1270" y="292" width="100" height="8" rx="4" class="bar"/><rect x="1270" y="292" width="94" height="8" rx="4" class="g"/>
+
+<rect x="528" y="358" width="864" height="108" rx="14" class="card"/>
+<text x="560" y="418" class="k m c" font-size="22">2</text>
+<rect x="590" y="372" width="58" height="76" rx="6" fill="#0E6A62"/><rect x="590" y="372" width="4" height="76" class="sp"/><text x="604" y="406" class="k w" font-size="15">11/13</text><text x="604" y="424" class="w" font-size="11">午前</text>
+<text x="668" y="388" class="s m">個人開発もくもく会</text><text x="668" y="410" class="b">ベクトル DB の保存先とバックアップ</text>
+<text x="668" y="434" class="s" font-size="13">保存先をアプリのデータ領域にまとめ、</text><text x="668" y="452" class="s" font-size="13">バックアップの取り方を共有した。</text>
+<text x="1270" y="402" class="s m">近さ</text><rect x="1270" y="410" width="100" height="8" rx="4" class="bar"/><rect x="1270" y="410" width="81" height="8" rx="4" class="g"/>
+
+<rect x="528" y="476" width="864" height="108" rx="14" class="card"/>
+<text x="560" y="536" class="k m c" font-size="22">3</text>
+<rect x="590" y="490" width="58" height="76" rx="6" fill="#8C3B2E"/><rect x="590" y="490" width="4" height="76" class="sp"/><text x="604" y="524" class="k w" font-size="15">11/13</text><text x="604" y="542" class="w" font-size="11">午後</text>
+<text x="668" y="506" class="s m">AI ツール情報交換</text><text x="668" y="528" class="b">Embedding モデルの候補整理</text>
+<text x="668" y="552" class="s" font-size="13">日本語に強い候補を挙げ、ローカルで動かす</text><text x="668" y="570" class="s" font-size="13">場合の軽さを比べた。</text>
+<text x="1270" y="520" class="s m">近さ</text><rect x="1270" y="528" width="100" height="8" rx="4" class="bar"/><rect x="1270" y="528" width="66" height="8" rx="4" class="g"/>
+
+<rect x="528" y="594" width="864" height="108" rx="14" class="card"/>
+<text x="560" y="654" class="k m c" font-size="22">4</text>
+<rect x="590" y="608" width="58" height="76" rx="6" fill="#2F4B7C"/><rect x="590" y="608" width="4" height="76" class="sp"/><text x="604" y="642" class="k w" font-size="15">11/12</text><text x="604" y="660" class="w" font-size="11">午後</text>
+<text x="668" y="624" class="s m">Python 学習部屋</text><text x="668" y="646" class="b">データベース接続の書き方</text>
+<text x="668" y="670" class="s" font-size="13">接続の開閉をまとめて扱う書き方と、</text><text x="668" y="688" class="s" font-size="13">テストでの差し替え方が話題になった。</text>
+<text x="1270" y="638" class="s m">近さ</text><rect x="1270" y="646" width="100" height="8" rx="4" class="bar"/><rect x="1270" y="646" width="52" height="8" rx="4" class="g"/>
+
+<rect x="528" y="712" width="864" height="108" rx="14" class="card"/>
+<text x="560" y="772" class="k m c" font-size="22">5</text>
+<rect x="590" y="726" width="58" height="76" rx="6" fill="#0E6A62"/><rect x="590" y="726" width="4" height="76" class="sp"/><text x="604" y="760" class="k w" font-size="15">11/10</text><text x="604" y="778" class="w" font-size="11">午後</text>
+<text x="668" y="742" class="s m">個人開発もくもく会</text><text x="668" y="764" class="b">保存形式の見直し</text>
+<text x="668" y="788" class="s" font-size="13">本文とタグを別の表に分けるかどうかを検討した。</text>
+<text x="1270" y="756" class="s m">近さ</text><rect x="1270" y="764" width="100" height="8" rx="4" class="bar"/><rect x="1270" y="764" width="41" height="8" rx="4" class="g"/>
+</svg>

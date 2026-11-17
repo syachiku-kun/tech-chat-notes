@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" role="img" aria-labelledby="t">
+<title id="t">UI案：設定</title>
+<style>
+text{font-family:'Noto Sans JP','Yu Gothic','Meiryo',sans-serif;fill:#1E2226;font-size:14px}
+.m{fill:#5C626B}.s{font-size:12px}.b{font-weight:700}.w{fill:#FFFFFF}.k{font-family:'Noto Serif JP','Yu Mincho',serif;font-weight:700}
+.a{fill:#0A5750}.c{text-anchor:middle}.e{text-anchor:end}.g{fill:#0E6A62}.r{fill:#B3261E}
+.card{fill:#FFFFFF;stroke:#E4DFD4}.in{fill:#FFFFFF;stroke:#D5CFC2}.ro{fill:#FBFAF6;stroke:#D5CFC2}.box{fill:#FBFAF6;stroke:#EFEBE2}
+.ic{fill:none;stroke:#1E2226;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ica{stroke:#0A5750}
+h{font-size:16px}
+</style>
+<rect width="1440" height="900" fill="#F6F4EF"/>
+
+<!-- サイドバー -->
+<rect width="232" height="900" fill="#FFFFFF"/><rect x="231" width="1" height="900" fill="#E4DFD4"/>
+<rect x="24" y="24" width="32" height="32" rx="8" class="g"/>
+<path class="ic" stroke="#FFFFFF" transform="translate(31 31) scale(0.75)" d="M5 4h4v16H5zM11 4h4v16h-4zM17 6l3-1 2 14-3 1z"/>
+<text x="66" y="46" class="b" font-size="16">トーク要約</text>
+<path class="ic" transform="translate(28 88) scale(0.83)" d="M5 4h4v16H5zM11 4h4v16h-4zM17 6l3-1 2 14-3 1z"/><text x="58" y="103" font-weight="500">本棚</text>
+<path class="ic" transform="translate(28 140) scale(0.83)" d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14"/><text x="58" y="155" font-weight="500">トーク取込</text>
+<path class="ic" transform="translate(28 192) scale(0.83)" d="M7 5l12 7-12 7z"/><text x="58" y="207" font-weight="500">要約実行</text>
+<path class="ic" transform="translate(28 244) scale(0.83)" d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm9 16l-4-4"/><text x="58" y="259" font-weight="500">検索</text>
+<rect x="16" y="284" width="200" height="44" rx="10" fill="#DDEFEC"/>
+<path class="ic ica" transform="translate(28 296) scale(0.83)" d="M4 7h10M18 7h2M4 17h2M10 17h10M14 5v4M6 15v4"/><text x="58" y="311" class="a b">設定</text>
+<rect x="16" y="800" width="200" height="76" rx="12" fill="none" stroke="#E4DFD4"/>
+<circle cx="36" cy="824" r="4" fill="#1F8A5B"/><text x="48" y="828" class="s m">Codex 接続済み</text>
+<circle cx="36" cy="850" r="4" fill="#C28A00"/><text x="48" y="854" class="s m">検索未反映 2件</text>
+
+<text x="280" y="66" font-size="28" class="b">設定</text>
+
+<!-- 要約用の AI -->
+<rect x="280" y="100" width="546" height="290" rx="14" class="card"/>
+<text x="300" y="136" class="b" font-size="16">要約用の AI（Codex）</text>
+<rect x="730" y="118" width="76" height="24" rx="12" fill="#DDEFEC"/><text x="768" y="135" class="s a b c">接続済み</text>
+<text x="300" y="170" class="s m">Codex CLI の場所</text>
+<rect x="300" y="178" width="506" height="40" rx="10" class="in"/><text x="314" y="203">C:\Tools\codex\codex.exe</text>
+<rect x="300" y="238" width="506" height="72" rx="10" class="box"/>
+<text x="316" y="264" font-size="13" font-weight="500">認証情報</text><text x="316" y="284" class="s m">登録済み（内容は表示されません）</text>
+<rect x="684" y="254" width="104" height="40" rx="10" class="in"/><text x="736" y="279" class="c">認証し直す</text>
+<text x="300" y="340" class="s m">送信先：Codex 経由の外部 AI。送信する内容は、</text>
+<text x="300" y="358" class="s m">実行前に毎回確認できます。</text>
+
+<!-- 参考にする過去の要約 -->
+<rect x="846" y="100" width="546" height="220" rx="14" class="card"/>
+<text x="866" y="136" class="b" font-size="16">参考にする過去の要約</text>
+<text x="866" y="170" class="s m">探す期間（日）</text><rect x="866" y="178" width="246" height="40" rx="10" class="in"/><text x="880" y="203">7</text>
+<text x="1126" y="170" class="s m">最大件数</text><rect x="1126" y="178" width="246" height="40" rx="10" class="in"/><text x="1140" y="203">5</text>
+<text x="866" y="250" class="s m">対象日の前日から、同じオープンチャットの要約を</text>
+<text x="866" y="268" class="s m">近い順に選びます。変更は次の要約・再要約から反映されます。</text>
+
+<!-- データの保存先 -->
+<rect x="280" y="410" width="546" height="200" rx="14" class="card"/>
+<text x="300" y="446" class="b" font-size="16">データの保存先</text>
+<text x="300" y="480" class="s m">フォルダ</text>
+<rect x="300" y="488" width="390" height="40" rx="10" class="ro"/><text x="314" y="513" font-size="13">C:\Users\（利用者）\AppData\Local\トーク要約</text>
+<rect x="700" y="488" width="106" height="40" rx="10" class="in"/><text x="753" y="513" class="c">変更…</text>
+<text x="300" y="562" class="s m">トーク本文・要約・検索データはこのフォルダにだけ保存されます。</text>
+
+<!-- 検索データ -->
+<rect x="846" y="340" width="546" height="250" rx="14" class="card"/>
+<text x="866" y="376" class="b" font-size="16">検索データ</text>
+<text x="866" y="410" class="s m">Embedding モデル</text>
+<rect x="866" y="418" width="506" height="40" rx="10" class="in"/><text x="880" y="443">（未設定・実装時に選定）</text><text x="1358" y="443" class="e m">▾</text>
+<rect x="866" y="478" width="506" height="72" rx="10" class="box"/>
+<text x="882" y="504" font-size="13" font-weight="500">検索データを再生成</text>
+<text x="882" y="524" class="s m">保存済みの要約本文から作り直します（外部 AI は使いません）</text>
+<rect x="1264" y="494" width="96" height="40" rx="10" class="in"/><text x="1312" y="519" class="c">再生成</text>
+
+<!-- 操作 -->
+<rect x="280" y="640" width="140" height="44" rx="10" class="g"/><text x="350" y="667" class="w b c">設定を保存</text>
+<rect x="432" y="640" width="116" height="44" rx="10" class="in"/><text x="490" y="667" class="c">変更を戻す</text>
+</svg>
